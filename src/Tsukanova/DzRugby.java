@@ -15,8 +15,9 @@ public class DzRugby {
         for (int i = 0; i < people.length; i++) {
             sum += people[i];
         }
+        int age1 = sum/25;
         System.out.println("");
-        System.out.println("Загальний вік команди 1 = " + sum);
+        System.out.println("Середній вік команди 1 = " + age1);
 
         for (int j = 0; j < people2.length; j++) {
             int min = 18;
@@ -28,8 +29,9 @@ public class DzRugby {
         for (int j = 0; j < people2.length; j++) {
             sum2 += people[j];
         }
+        int age2 = sum2/25;
         System.out.println("");
-        System.out.println("Загальний вік команди 2 = " + sum2);
+        System.out.println("Середній вік команди 2 = " + age2);
     }
 }
 
